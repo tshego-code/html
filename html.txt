@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO-friendly metadata -->
+  <title>Learning HTML5, Accessibility & SEO Basics - Tshegofatso Moloto</title>
+  <meta name="description" content="A simple HTML5 webpage by Tshegofatso Moloto demonstrating semantic structure, accessibility best practices, and beginner-friendly SEO principles.">
+
+  <!-- Accessibility: language already declared above -->
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My HTML5 + Accessibility & SEO Demo</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#content">Content</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>
+        This webpage was created by <strong>Tshegofatso Moloto</strong> as part of an assignment 
+        on HTML5, accessibility, and SEO basics. It demonstrates the use of semantic elements, 
+        logical heading structure, and beginner SEO best practices.
+      </p>
+    </section>
+
+    <section id="content" aria-labelledby="content-heading">
+      <h2 id="content-heading">Main Content</h2>
+      <article aria-labelledby="article-heading">
+        <h3 id="article-heading">Why Accessibility Matters</h3>
+        <p>
+          Accessibility ensures that all users, including those with disabilities, 
+          can navigate and understand content. Using semantic HTML5 tags provides 
+          landmarks for screen readers and improves overall usability.
+        </p>
+      </article>
+
+      <article aria-labelledby="seo-heading">
+        <h3 id="seo-heading">Why SEO Matters</h3>
+        <p>
+          Search Engine Optimization (SEO) improves a website’s visibility 
+          on search engines. By using headings properly, writing descriptive 
+          content, and including metadata, this page is more discoverable online.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <address>
+        <p>Created by: <strong>Tshegofatso Moloto</strong></p>
+        <p>Email: <a href="mailto:tshegofatsomoloto@example.com">tshegofatsomoloto@example.com</a></p>
+      </address>
+    </section>
+    <p>&copy; 2025 Tshegofatso Moloto. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
